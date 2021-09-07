@@ -37,3 +37,5 @@
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/HappyPaws.pdb
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/HappyPaws.genruntimeconfig.cache
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/HappyPaws.csproj.CopyComplete
+/Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Contact.cshtml.g.cs
+/Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/MeetStaff.cshtml.g.cs

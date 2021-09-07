@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/MeetStaff.cshtml",
+      "TargetPath": "Pages\\MeetStaff.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15651,11 @@
     {
       "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/Contact.cshtml",
+      "TargetPath": "Pages\\Contact.cshtml",
       "FileKind": "mvc"
     },
     {
