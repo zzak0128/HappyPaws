@@ -15634,11 +15634,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/zacharyzak/WebDev/HappyPaws/Pages/MeetStaff.cshtml",
       "TargetPath": "Pages\\MeetStaff.cshtml",
       "FileKind": "mvc"

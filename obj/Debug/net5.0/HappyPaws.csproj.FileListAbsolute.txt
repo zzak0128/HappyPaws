@@ -24,7 +24,6 @@
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/HappyPaws.RazorCoreGenerate.cache
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs
-/Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/zacharyzak/WebDev/HappyPaws/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs

@@ -1,0 +1,31 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<main class="form-container">
+    <form action="#">
+        <fieldset>
+            <legend>Send us a message</legend>
+        <div class="form">
+            <label class="form-label" for="fullname">Full Name</label>
+            <input id="fullname" class="form-input" name="fullname" type="text">
+        </div>
+        <div class="form">
+            <label class="form-label" for="phone_number">Phone Number</label>
+            <input id="phone_number" class="form-input" name="phone_number" type="tel">
+        </div>
+        <div class="form">
+            <label class="form-label" for="email_address">Email</label>
+        <input id="email_address" class="form-input" name="email_address" type="email" required>
+        </div>
+        <div class="form">
+            <label class="form-label" for="question">Questions/Comments</label>
+            <textarea id="question" class="form-input" name="question" rows="4" cols="25" required></textarea>
+        </div>
+        <input type="submit" value="Send!">
+        </fieldset>
+    </form>
+</main>
+
