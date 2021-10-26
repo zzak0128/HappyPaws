@@ -1,0 +1,60 @@
+/* contact.css */
+
+/* -----------------------
+--------------------------
+        Form
+--------------------------
+------------------------*/
+
+#form-container {
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Acme", sans-serif;
+}
+
+#form-container .form-control {
+  margin: 10px;
+  margin-top: 10px;
+}
+
+#form-container .form-control label {
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+#form-container .form-control input {
+  height: 30px;
+  margin: 5px;
+  width: 100%;
+  font-size: 18px;
+}
+
+textarea {
+  margin: 5px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 18px;
+}
+
+.form-buttons {
+  margin: auto;
+  text-align: center;
+}
+
+.form-buttons button {
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* -----------------------
+--------------------------
+        Footer
+--------------------------
+------------------------*/

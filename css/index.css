@@ -1,0 +1,231 @@
+/* index.css */
+
+/* -----------------------
+--------------------------
+        Landing
+--------------------------
+------------------------*/
+
+#hero .herotext {
+  height: 25vh;
+  padding: 20px;
+  margin: 20px;
+}
+
+#hero .hero-text p {
+  font-family: "Explora", cursive;
+  font-size: 2em;
+  margin-top: -10px;
+  padding-left: 8px;
+}
+
+#hero .hero-quote {
+  font-family: "Acme", sans-serif;
+  font-size: 1.2em;
+  color: var(--blue);
+  padding: 20px 20px 20px 8px;
+}
+
+.hero-img {
+  background-image: url("/img/hero-pet-fullscreen.jpg");
+  background-color: var(--gray);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+/* -----------------------
+--------------------------
+        Services
+--------------------------
+------------------------*/
+
+/* start service "card" */
+.services-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.service-frame {
+  display: flex;
+  height: 300px;
+  width: 200px;
+  position: relative;
+  text-align: center;
+  margin: 50px;
+}
+
+.service-frame:hover .overlay {
+  height: 100%;
+}
+
+.service-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.service-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.service-text {
+  min-height: 35px;
+  background-color: var(--white);
+  margin: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0 0 10px 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--blue);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  border-radius: 10px 10px 0 0;
+  transition: 0.4s ease;
+}
+
+.text {
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: "Acme", sans-serif;
+  font-size: 0.9em;
+}
+
+/* End service "card" */
+
+#services h3 {
+  font-size: 0.85em;
+  padding: 5px 0;
+}
+
+/* -----------------------
+--------------------------
+        About
+--------------------------
+------------------------*/
+
+#about {
+  padding: 20px;
+  background-color: var(--red);
+  font-family: "Acme", sans-serif;
+  color: #0f0f0f;
+}
+
+#about .container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  margin: 40px;
+}
+
+/* when smaller screen, left align */
+
+#about .staff,
+#about .certificates {
+  min-width: 350px;
+}
+
+#about .staff {
+  flex: 50%;
+  padding-bottom: 20px;
+}
+
+/* #about .staff .staff-right {
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+#about .about-container {
+  display: flex;
+}
+
+#about .staff img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about p {
+  margin: 20px;
+  max-width: 200px;
+}
+
+#about .certificates {
+  flex: 50%;
+  padding-bottom: 20px;
+}
+
+#about .certificates img {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* -----------------------
+--------------------------
+        hours
+--------------------------
+------------------------*/
+
+#contact {
+  padding: 20px;
+}
+#contact .container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly;
+  align-content: space-evenly; */
+  margin: 40px;
+}
+
+#contact ul {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+
+.contact-hours,
+.contact-contact {
+  min-width: 200px;
+}
+
+.contact-hours {
+  flex: 50%;
+  padding-bottom: 15px;
+}
+
+.contact-contact {
+  flex: 50%;
+  padding-bottom: 15px;
+}
+
+.text-accent {
+  font-family: "Acme", sans-serif;
+  font-size: 1.1em;
+  color: var(--blue);
+}

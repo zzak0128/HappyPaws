@@ -1,0 +1,230 @@
+/* core-styles.css */
+
+/* -----------------------
+--------------------------
+      general rules
+--------------------------
+------------------------*/
+
+/* variables */
+:root {
+  --blue: #409ac7;
+  --gray: #484a47;
+  --red: #ed6a5a;
+  --white: #faf9f9;
+}
+
+/* Custom Fonts */
+
+@font-face {
+  font-family: "Explora";
+  src: url("/fonts/Explora-Regular.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acme";
+  src: url("/fonts/Acme-Regular.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Root reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------ Headers ------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Acme", sans-serif;
+  color: var(--gray);
+  margin: 8px;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -----------------------
+--------------------------
+        header
+--------------------------
+------------------------*/
+
+header {
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  top: 0;
+  background-color: var(--blue);
+  z-index: 100;
+}
+
+nav {
+  font-family: "Acme", sans-seriff;
+  font-size: 1.2em;
+  /* padding-right: 20px; */
+  padding-left: 20px;
+}
+
+.navigation-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* float: right; */
+  overflow: hidden;
+}
+
+.navigation-item {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+  float: left;
+}
+
+.navigation-item:hover {
+  background-color: var(--red);
+}
+
+.navigation-item a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: var(--white);
+}
+
+.navigation-active-item {
+  background-color: var(--red);
+  /* border-bottom: 4px var(--red) solid; */
+}
+
+body {
+  padding-top: 60px;
+}
+
+/* -----------------------
+--------------------------
+        side-nav
+--------------------------
+------------------------*/
+
+.side-nav {
+  position: fixed;
+  background: var(--white);
+  width: 100px;
+  height: auto;
+  z-index: 100;
+  right: 0;
+  top: 60px;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.side-nav h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+.side-nav:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.side-nav li {
+  list-style-type: none;
+  padding: 5px;
+  text-align: right;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.side-nav a:hover {
+  /* text-decoration: underline; */
+  color: var(--blue);
+}
+
+/* -----------------------
+--------------------------
+        footer
+--------------------------
+------------------------*/
+
+footer {
+  font-family: "Acme", sans-serif;
+  display: flex;
+  height: auto;
+  padding: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+footer p {
+  margin: auto;
+}
+
+/* -----------------------
+--------------------------
+    Section Seperator
+--------------------------
+------------------------*/
+
+.black-seperator {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+/* -----------------------
+--------------------------
+        Elements
+--------------------------
+------------------------*/
+
+.button-block {
+  display: inline-block;
+  height: 35px;
+  width: 100px;
+  background-color: var(--red);
+  color: var(--white);
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 10px 0;
+  padding-top: 15px;
+  font-family: "Acme", sans-serif;
+}
+
+.button-block:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

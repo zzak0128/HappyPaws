@@ -1,0 +1,96 @@
+<!-- Contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/core-styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Me</title>
+</head>
+
+<header>
+    <nav>
+        <ul class="navigation-list">
+            <li class="navigation-item"><a href="index.html">Home</a></li>
+            <li class="navigation-item navigation-active-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+
+        <!--------------------->
+        <!----------------------
+                Side Nav
+        ------------------------>
+        <!---------------------->
+
+        <nav class="side-nav">
+            <h2><a href="#form-title">Up Top</a></h2>
+            <ul>
+                <li><a href="#submit">Submit</a></li>
+            </ul>
+        </nav>
+
+        <!--------------------->
+        <!----------------------
+              Contact Form
+        ------------------------>
+        <!---------------------->
+
+        <h1>Contact Me</h1>
+
+        <div id="form-container" class="form-container">
+            <form action="#">
+                <div class="form-control">
+                    <label for="first-name">First name</label>
+                    <input name="first-name" id="first-name" type="text" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="last-name">Last Name</label>
+                    <input name="last-name" id="last-name" type="text" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email Address</label>
+                    <input name="email" type="email" id="email">
+                </div>
+
+                <div class="form-control">
+                    <label for="phone-number">Phone Number</label>
+                    <input name="phone-number" type="tel" id="phone-number" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="button-block" type="reset" value="Reset">Reset</button>
+                    <button id="submit" class="button-block" type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
+    <!--------------------->
+    <!----------------------
+            Footer
+    ------------------------>
+    <!---------------------->
+
+
+    <footer>
+        <p>&copy; 2021 Happy Paws</p>
+    </footer>
+</body>
+
+</html>
