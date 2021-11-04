@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/Bootstrap5/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/core-styles.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <title>Happy Paws</title>
 </head>
@@ -22,11 +21,10 @@
     <!---------------------->
 
     <header>
-        <nav>
-            <ul class="navigation-list">
-                <li class="navigation-item navigation-active-item"><a href="#hero">Home</a></li>
-                <li class="navigation-item"><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="container navbar nav-tabs">
+            <a class="nav-link navbar-toggler" href="#hero">Home</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#">Log In</a>
         </nav>
     </header>
 
@@ -38,14 +36,14 @@
         ------------------------>
         <!---------------------->
 
-        <nav class="side-nav">
+        <!-- <nav class="side-nav">
             <h2><a href="#hero">Up Top</a></h2>
             <ul>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
 
 
         <!--------------------->
@@ -54,16 +52,20 @@
         ------------------------>
         <!---------------------->
 
-        <section id="hero" class="hero container">
-            <div class="hero-text col-md-4">
+        <section id="hero" class="container row">
+            <div class="col">
                 <h1>Happy Paws</h1>
                 <p>by Ashley</p>
             </div>
-            <div class="hero-quote col-md-6">
+            <div class="col">
                 <p>Welcome to Happy Paws. Where all paws come to be happy!</p>
             </div>
 
-            <div class="hero-img img-thumbnail col-12">
+            <!-- <div class="hero-img img-thumbnail col-12">
+            </div> -->
+
+            <div class="container col-12">
+                <img class="img-thumbnail" src="img/hero-pet-fullscreen.jpg" alt="">
             </div>
         </section>
 
