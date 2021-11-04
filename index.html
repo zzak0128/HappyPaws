@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Bootstrap5/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/core-styles.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
@@ -21,7 +22,7 @@
     <!---------------------->
 
     <header>
-        <nav>
+        <nav class="nav nav-defualt">
             <ul class="navigation-list">
                 <li class="navigation-item navigation-active-item"><a href="#hero">Home</a></li>
                 <li class="navigation-item"><a href="contact.html">Contact</a></li>
@@ -53,16 +54,16 @@
         ------------------------>
         <!---------------------->
 
-        <section id="hero" class="hero">
-            <div class="hero-text">
+        <section id="hero" class="hero container">
+            <div class="hero-text col-md-4">
                 <h1>Happy Paws</h1>
                 <p>by Ashley</p>
             </div>
-            <div class="hero-quote">
+            <div class="hero-quote col-md-8">
                 <p>Welcome to Happy Paws. Where all paws come to be happy!</p>
             </div>
 
-            <div class="hero-img">
+            <div class="hero-img container img-thumbnail col-12">
             </div>
         </section>
 
@@ -72,7 +73,7 @@
         ------------------------>
         <!---------------------->
 
-        <section id="services" class="services">
+        <section id="services" class="services container">
 
             <h2>Services</h2>
 
@@ -221,6 +222,17 @@
         </footer>
 
     </main>
+
+    <!--------------------->
+    <!----------------------
+                    JS
+        ------------------------>
+    <!---------------------->
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
